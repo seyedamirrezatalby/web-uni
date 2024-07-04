@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Injoy learn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>WHAT IS FIGMA?</h1>
+            <p>Figma is a collaborative web application for interface design , with additional offline features enabled by desktop applications for macOS and Windows. The feature set of Figma focuses on user interface and user experience design, with an
+                emphasis on real-time collaboration,[1] utilising a variety of vector graphics editor and prototyping tools. The Figma mobile app for Android and iOS allows viewing and interacting with Figma prototypes in real-time on mobile and tablet
+                devices.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Figma" class="visit">visit website</a>
+        </div>
+
+    </section>
+
+    <section class="course">
+        <h1>Meaning <span>UI</span>?</h1>
+        <p>UI stands for user interface. It is the point of contact between humans and computers . Any technology you interact with as a user is part of the user interface. For example , screens, sounds, overall style, and responsiveness are all elements
+            of UI</p>
+        <div class="row">
+            <div class="cours-col">
+                <h3>us ui?</h3>
+                <p>Simply put, user interface (UI) is anything a user may interact with to use a digital product or service. This includes everything from screens and touchscreens, keyboards, sounds, and even lights. To understand the evolution of UI, however,
+                    it’s helpful to learn a bit more about its history and how it has evolved into best practices and a profession.</p>
+            </div>
+            <div class="cours-col">
+                <h3>us ux?</h3>
+                <p>Simply put, user interface (UI) is anything a user may interact with to use a digital product or service. This includes everything from screens and touchscreens, keyboards, sounds, and even lights. To understand the evolution of UI, however,
+                    it’s helpful to learn a bit more about its history and how it has evolved into best practices and a profession.</p>
+            </div>
+            <div class="cours-col">
+                <h3>About?</h3>
+                <p>Simply put, user interface (UI) is anything a user may interact with to use a digital product or service. This includes everything from screens and touchscreens, keyboards, sounds, and even lights. To understand the evolution of UI, however,
+                    it’s helpful to learn a bit more about its history and how it has evolved into best practices and a profession.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ux">
+        <h1> ux in figma </h1>
+        <p> Any technology you interact with as a user is part of the user interface</p>
+        <div class="row">
+            <div class="ux-col">
+                <img src="image/digital-dreams-1155366.webp" alt="">
+                <div class="layer">
+                    <h2>coding</h2>
+                </div>
+            </div>
+            <div class="ux-col">
+                <img src="image/download.png" alt="">
+                <div class="layer">
+                    <h2>figma</h2>
+                </div>
+            </div>
+            <div class="ux-col">
+                <img src="image/letters-web-1-1574747.webp" alt="">
+                <div class="layer">
+                    <h2>internet</h2>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="urls">
+        <h2>what url?</h2>
+        <p>address protocols in any website</p>
+        <div class="row">
+            <div class="url-col">
+                <img src="image/people-1458971.webp" alt="people">
+                <h2>meaning life programmer</h2>
+                <p>growth human for world until glory</p>
+            </div>
+            <div class="url-col">
+                <img src="image/paper-people-1316581.webp" alt="p-people">
+                <h2>meaning life human</h2>
+                <p>growth human for world until glory</p>
+            </div>
+            <div class="url-col">
+                <img src="image/new-life-1181591.webp" alt="life">
+                <h2>meaning life beauty</h2>
+                <p>growth human for world until glory</p>
+            </div>
+        </div>
+    </section>
+    <section class="name-person">
+        <div class="row">
+            <div class="person">
+                <img src="image/download.jfif" alt="men">
+                <p>with additional offline features enabled by desktop applications for macOS and Windows</p>
+                <h3><br> victor rice</h3>
+                <i class="fa fa-mars"></i>
+            </div>
+            <div class="person">
+                <img src="image/images.jfif" alt="men">
+                <p>with additional offline features enabled by desktop applications for macOS and Windows</p>
+                <h3><br> shakor beny</h3>
+                <i class="fa fa-mars"></i>
+            </div>
+        </div>
+    </section>
+    <section class="pic-head">
+        <h1> work figma or learning design website</h1>
+        <a href="" class="visit">CONTACT US</a>
+    </section>
+
+
+
+    <script>
+        var navlinks = document.getElementById(navlinks);
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200";
+        }
+    </script>
+
+</body>
+
+</html>
